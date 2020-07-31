@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/test0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test0" />
+
+            <Button
+                android:id="@+id/test1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test1" />
+
+            <Button
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test2" />
+
+            <Button
+                android:id="@+id/test3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/test4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test4" />
+
+            <Button
+                android:id="@+id/test5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test5" />
+
+            <Button
+                android:id="@+id/test6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/open_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Fragment" />
+
+            <Button
+                android:id="@+id/open_pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start pager" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
